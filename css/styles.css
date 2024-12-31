@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
 }
 
+body, main {
+    background-color: #fdf7f0;
+    overflow-x: hidden;
+}
 main {
     min-height: 100vh;
 }

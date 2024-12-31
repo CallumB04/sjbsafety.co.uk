@@ -2,22 +2,21 @@
 module.exports = {
   content: [
     "./*.html",
-    "./*.js",
+    "./src/**/*.js",
   ],
   theme: {
     extend: {
       colors: {
         text: {
-          primary: "",
-          hover: ""
+          primary: "#0e0e0e",
+          secondary: "#1a1a1a"
         },
-        bg: {
-          primary: ""
+        bg: { 
+          primary: "#fdf7f0"
         },
         highlight: {
-          primary: "",
+          primary: "#dd7834",
           secondary: "",
-          hover: ""
         }
       }
     },
