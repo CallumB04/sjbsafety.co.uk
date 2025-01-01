@@ -9,15 +9,18 @@ module.exports = {
       colors: {
         text: {
           primary: "#0e0e0e",
-          secondary: "#4a4a4a"
+          secondary: "#4a4a4a",
         },
         bg: { 
           primary: "#fdf7f0"
         },
         highlight: {
           primary: "#dd7834",
-          secondary: "",
+          secondary: "#f5e8d5",
         }
+      },
+      fontFamily: {
+        lato: "Lato",
       }
     },
   },
