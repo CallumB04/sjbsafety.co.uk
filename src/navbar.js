@@ -1,5 +1,5 @@
 document.getElementById('navbar').innerHTML = `
-    <nav class="w-screen fixed top-0 z-10 text-bg-primary">
+    <nav class="w-screen fixed top-0 z-10 text-bg-primary font-lato">
         <div class="w-full h-12 bg-highlight-primary justify-center items-center gap-x-12 hidden md:flex">
             <span class="flex gap-x-3 items-center">
                 <i class="fas fa-phone text-xl"></i>
@@ -22,6 +22,36 @@ document.getElementById('navbar').innerHTML = `
                 <a href="services.html" class="">Services</a>
                 <a href="contact.html" class="">Contact</a>
             </div>
+            <div class="flex md:hidden absolute right-8 h-full items-center">
+                <div id="phone-dropdown-btn" class="flex flex-col w-9 justify-center gap-y-[6px] p-1 hover:cursor-pointer group">
+                    <div class="w-full h-[2px] bg-text-primary group-hover:bg-text-secondary"></div>
+                    <div class="w-full h-[2px] bg-text-primary group-hover:bg-text-secondary"></div>
+                    <div class="w-full h-[2px] bg-text-primary group-hover:bg-text-secondary"></div>
+                </div>
+            </div>
+            <div id="phone-dropdown" class="flex md:hidden flex-col w-9/12 max-w-60 fixed top-24 right-0 bg-highlight-primary
+                                            transition-[width] duration-500 ease-in-out text-lg">
+                <a href="index.html" class="h-16 flex justify-center items-center w-full whitespace-nowrap
+                                            hover:bg-highlight-secondary hover:text-highlight-primary transition-colors duration-200">Home</a>
+                <a href="about.html" class="h-16 flex justify-center items-center w-full whitespace-nowrap
+                                            hover:bg-highlight-secondary hover:text-highlight-primary transition-colors duration-200">About us</a>
+                <a href="services.html" class="h-16 flex justify-center items-center w-full whitespace-nowrap
+                                               hover:bg-highlight-secondary hover:text-highlight-primary transition-colors duration-200">Services</a>
+                <a href="contact.html" class="h-16 flex justify-center items-center w-full whitespace-nowrap
+                                              hover:bg-highlight-secondary hover:text-highlight-primary transition-colors duration-200">Contact</a>
+                <div class="h-16 flex justify-center gap-x-9 text-[26px] w-full items-center">
+                    <a href="" class="fab fa-facebook hover:text-highlight-secondary transition-colors duration-200"></a>
+                    <a href="" class="fas fa-envelope hover:text-highlight-secondary transition-colors duration-200"></a>
+                    <a href="" class="fas fa-phone hover:text-highlight-secondary transition-colors duration-200 text-[23px]"></a>
+                </div>
+            </div>
         </div>
     </nav>
 `;
+
+const phoneDropdownBtn = document.getElementById("phone-dropdown-btn");
+const phoneDropdown = document.getElementById("phone-dropdown");
+phoneDropdownBtn.addEventListener("click", () => {
+    phoneDropdown.classList.toggle("w-9/12");
+    phoneDropdown.classList.toggle("w-0");
+});
