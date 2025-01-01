@@ -17,10 +17,10 @@ document.getElementById('navbar').innerHTML = `
                 <img src="../assets/logo.png" class="object-cover h-[90%]" />
             </div>
             <div class="items-center gap-x-[3vw] text-text-primary font-semibold text-xl hidden md:flex">
-                <a href="" class="">Home</a>
-                <a href="" class="">About us</a>
-                <a href="" class="">Services</a>
-                <a href="" class="">Contact</a>
+                <a href="index.html" class="">Home</a>
+                <a href="about.html" class="">About us</a>
+                <a href="services.html" class="">Services</a>
+                <a href="contact.html" class="">Contact</a>
             </div>
         </div>
     </nav>
