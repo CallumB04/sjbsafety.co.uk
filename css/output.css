@@ -840,6 +840,10 @@ video {
   text-transform: uppercase;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
 .text-bg-primary {
   --tw-text-opacity: 1;
   color: rgb(253 247 240 / var(--tw-text-opacity, 1));
@@ -1022,5 +1026,10 @@ main {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }

@@ -31,7 +31,7 @@ document.getElementById('navbar').innerHTML = `
             </div>
             <div id="phone-dropdown" class="block md:hidden w-0 max-w-60 fixed top-24 right-0 bg-highlight-primary
                                             transition-[width] duration-500 ease-in-out text-lg">
-                <div id="phone-dropdown-content" class="w-full h-full flex flex-col opacity-0 transition-opacity duration-300">
+                <div id="phone-dropdown-content" class="w-full h-full flex flex-col opacity-0 transition-opacity duration-300 font-semibold tracking-wide">
                     <a href="index.html" class="h-16 flex justify-center items-center w-full whitespace-nowrap
                                                 hover:bg-highlight-secondary hover:text-highlight-primary transition-colors duration-200">Home</a>
                     <a href="about.html" class="h-16 flex justify-center items-center w-full whitespace-nowrap
