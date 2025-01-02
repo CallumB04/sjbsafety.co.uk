@@ -12,7 +12,7 @@ document.getElementById('navbar').innerHTML = `
             </span>
         </div>
 
-        <div class="w-full h-24 md:h-36 bg-bg-primary flex justify-center md:justify-between items-center px-[5%]">
+        <div class="w-full h-24 md:h-28 bg-bg-primary flex justify-center md:justify-between items-center px-[5%]">
             <div class="h-full flex items-center">
                 <img src="../assets/logo.png" class="object-cover h-[90%]" />
             </div>
