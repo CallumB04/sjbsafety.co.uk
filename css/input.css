@@ -15,5 +15,5 @@ body, main {
 }
 main {
     min-height: 100vh;
-    @apply pt-20 sm:pt-48;
+    @apply pt-20 md:pt-48;
 }
