@@ -968,14 +968,6 @@ main {
     display: none;
   }
 
-  .md\:h-36 {
-    height: 9rem;
-  }
-
-  .md\:h-\[calc\(100vh-12rem\)\] {
-    height: calc(100vh - 12rem);
-  }
-
   .md\:h-28 {
     height: 7rem;
   }
