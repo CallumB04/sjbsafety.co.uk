@@ -16,7 +16,7 @@ document.getElementById('navbar').innerHTML = `
             <div class="h-full flex items-center">
                 <img src="../assets/logo.png" class="object-cover h-[90%]" />
             </div>
-            <div class="items-center gap-x-[3vw] text-text-primary font-semibold text-xl hidden md:flex">
+            <div class="items-center gap-x-[max(3vw,2rem)] text-text-primary font-semibold text-xl hidden md:flex">
                 <a href="index.html" class="hover:text-highlight-primary transition-colors duration-200">Home</a>
                 <a href="about.html" class="hover:text-highlight-primary transition-colors duration-200">About us</a>
                 <a href="services.html" class="hover:text-highlight-primary transition-colors duration-200">Services</a>
