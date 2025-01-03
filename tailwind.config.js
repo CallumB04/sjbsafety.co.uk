@@ -21,6 +21,7 @@ module.exports = {
       },
       fontFamily: {
         lato: "Lato",
+        ls: "League Spartan",
       }
     },
   },
