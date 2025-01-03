@@ -12,12 +12,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet" />
 </head>
 <body">
     <div id="navbar"></div>
 
     <main>
-        <div class="w-screen h-[calc(100vh-6rem)] md:h-[calc(100vh-10rem)] relative">
+        <section class="w-screen h-[calc(100vh-6rem)] md:h-[calc(100vh-10rem)] relative">
             <img src="./assets/site-images/landing-page.jpg" class="w-full h-full object-cover brightness-[0.3]"/>
             <div class="absolute top-0 left-0 w-full h-full flex flex-col justify-evenly md:gap-y-14 md:justify-center px-[10vw] font-lato">
                 <div class="flex flex-col uppercase gap-y-3 md:gap-y-1 text-center md:text-left text-5xl">
@@ -42,7 +43,46 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="w-screen py-12 flex justify-between">
+            <div class="text-center md:text-left font-ls text-xl pl-0 md:pl-8 w-full xl:w-2/3">
+                <h2 class="font-semibold text-5xl md:text-6xl tracking-wide uppercase text-highlight-primary px-2 md:px-0 font-lato">Why choose SJB?</h2>
+                <p class="pt-8 md:pt-6 max-w-[90vw] mx-auto md:mx-0 text-text-secondary">
+                    We pride ourselves on our meticulous approach to scaffolding inspections. Our inspectors deliver an extensive range of services 
+                    that align with current regulatory frameworks, providing peace of mind for our clients. Our detailed inspection reports highlight 
+                    compliance with key standards, <span class="underline">including</span>:
+                </p>
+                <ul class="pt-8 md:pt-6 max-w-[90vw] mx-auto md:mx-0 space-y-3 text-text-secondary">
+                    <li>
+                        <span class="font-bold text-text-primary">TG20:21</span> - Technical Guidance for Tube and Fitting Scaffolds, which provides essential information for the design and 
+                        construction of safe scaffolding systems.
+                    </li>
+                    <li>
+                        <span class="font-bold text-text-primary">BS EN 12811</span> - British/European Standard for Tube and Fitting Scaffolds, ensuring that our practices meet industry 
+                        benchmarks for safety and performance.
+                    </li>
+                    <li>
+                        <span class="font-bold text-text-primary">BS EN 12810</span> - British/European Standard for System Scaffolds, focusing on the safe assembly, use, and dismantling of 
+                        system scaffolds, with reports delivered within 24 hours of the inspection.
+                    </li>
+                </ul>
+                <p class="pt-8 md:pt-6 max-w-[90vw] mx-auto md:mx-0 text-text-secondary">
+                    Whether you require ongoing weekly inspections or a one-time comprehensive assessment, we are committed to helping your organization 
+                    fully comply with the 'Work at Height Regulations 2005'. Our thorough inspections not only assess the structural integrity of the 
+                    scaffolding but also focus on the safety measures in place, significantly reducing the likelihood of accidents on-site and mitigating 
+                    potential fines from the Health and Safety Executive.
+                </p>
+                <p class="pt-8 md:pt-6 max-w-[90vw] mx-auto md:mx-0 text-text-secondary">
+                    Our process is designed to be efficient and responsive; typically, we can schedule a site visit within 24 hours of your request. SJB 
+                    Safety Services caters to a diverse range of sectors within the construction industry, addressing the unique needs of both new build 
+                    projects and ongoing maintenance and regeneration efforts. Our goal is to provide reliable, thorough, and timely scaffolding inspections 
+                    that prioritize safety and compliance at every stage of your project.
+                </p>
+            </div>
+            <aside class="w-1/3 max-h-[650px] hidden xl:block">
+                <img src="./assets/site-images/about-aside.jpg" class="w-5/6 h-full object-cover mx-auto rounded"/>
+            </aside>
+        </section>
     </main>
 
     <div id="accreditations"></div>
