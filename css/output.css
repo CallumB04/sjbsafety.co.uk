@@ -619,8 +619,8 @@ video {
   height: 6rem;
 }
 
-.h-32 {
-  height: 8rem;
+.h-40 {
+  height: 10rem;
 }
 
 .h-\[2px\] {
@@ -639,12 +639,16 @@ video {
   height: 100%;
 }
 
-.h-20 {
-  height: 5rem;
+.h-80 {
+  height: 20rem;
 }
 
-.h-40 {
-  height: 10rem;
+.h-\[45\%\] {
+  height: 45%;
+}
+
+.min-h-40 {
+  min-height: 10rem;
 }
 
 .w-0 {
@@ -680,8 +684,16 @@ video {
   max-width: 60ch;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -690,10 +702,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-evenly {
@@ -750,16 +758,6 @@ video {
   background-color: rgb(253 247 240 / var(--tw-bg-opacity, 1));
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
-}
-
 .bg-highlight-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(221 120 52 / var(--tw-bg-opacity, 1));
@@ -770,6 +768,11 @@ video {
   background-color: rgb(14 14 14 / var(--tw-bg-opacity, 1));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -777,6 +780,11 @@ video {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-9 {
@@ -789,6 +797,11 @@ video {
   padding-right: 10vw;
 }
 
+.px-\[3vw\] {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
 .px-\[5\%\] {
   padding-left: 5%;
   padding-right: 5%;
@@ -797,21 +810,6 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.px-\[1vw\] {
-  padding-left: 1vw;
-  padding-right: 1vw;
-}
-
-.px-\[2vw\] {
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
-
-.px-\[3vw\] {
-  padding-left: 3vw;
-  padding-right: 3vw;
 }
 
 .text-center {
@@ -859,12 +857,12 @@ video {
   line-height: 1.75rem;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-light {
   font-weight: 300;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -1061,10 +1059,5 @@ main {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 }
