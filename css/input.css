@@ -9,8 +9,10 @@
     scroll-behavior: smooth;
 }
 
-body, main {
+body {
     background-color: #fdf7f0;
+}
+body, main {
     overflow-x: hidden;
 }
 main {
