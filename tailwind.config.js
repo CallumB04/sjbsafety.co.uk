@@ -12,7 +12,8 @@ module.exports = {
           secondary: "#3a3a3a",
         },
         bg: { 
-          primary: "#fdf7f0"
+          primary: "#fdf7f0",
+          secondary: "#f5f5f5"
         },
         highlight: {
           primary: "#dd7834",
