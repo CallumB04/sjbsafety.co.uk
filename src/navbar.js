@@ -1,4 +1,4 @@
-document.getElementById('navbar').innerHTML = `
+document.getElementById("navbar").innerHTML = `
     <nav class="w-screen fixed top-0 z-10 text-bg-primary font-lato">
         <div class="w-full h-12 bg-highlight-primary justify-center items-center gap-x-12 hidden md:flex">
             <span class="flex gap-x-3 items-center">
@@ -30,7 +30,7 @@ document.getElementById('navbar').innerHTML = `
                 </div>
             </div>
             <div id="phone-dropdown" class="block md:hidden w-0 max-w-60 fixed top-24 right-0 bg-highlight-primary
-                                            transition-[width] duration-500 ease-in-out text-lg">
+                                            transition-[width] duration-500 ease-in-out text-lg rounded-bl-lg">
                 <div id="phone-dropdown-content" class="w-full h-full flex flex-col opacity-0 transition-opacity duration-300 font-semibold tracking-wide">
                     <a href="index.html" class="h-16 flex justify-center items-center w-full whitespace-nowrap
                                                 hover:bg-highlight-secondary hover:text-highlight-primary transition-colors duration-200">Home</a>
@@ -55,8 +55,8 @@ const phoneDropdownBtn = document.getElementById("phone-dropdown-btn");
 const phoneDropdown = document.getElementById("phone-dropdown");
 const phoneDropdownContent = document.getElementById("phone-dropdown-content");
 phoneDropdownBtn.addEventListener("click", () => {
-    phoneDropdown.classList.toggle("w-9/12");
-    phoneDropdown.classList.toggle("w-0");
-    phoneDropdownContent.classList.toggle("opacity-0");
-    phoneDropdownContent.classList.toggle("opacity-100");
+  phoneDropdown.classList.toggle("w-9/12");
+  phoneDropdown.classList.toggle("w-0");
+  phoneDropdownContent.classList.toggle("opacity-0");
+  phoneDropdownContent.classList.toggle("opacity-100");
 });

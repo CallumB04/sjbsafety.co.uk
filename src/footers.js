@@ -1,4 +1,4 @@
-document.getElementById('accreditations').innerHTML = `
+document.getElementById("accreditations").innerHTML = `
     <footer class="w-screen bg-white flex flex-wrap flex-row items-center justify-center gap-8 p-4">
         <div class="h-24">
             <img src="../assets/accreditations/acclaim.jpg" class="h-full object-cover"/>
@@ -27,7 +27,7 @@ document.getElementById('accreditations').innerHTML = `
     </footer>
 `;
 
-document.getElementById('footer').innerHTML = `
+document.getElementById("footer").innerHTML = `
     <footer class="w-screen h-16 bg-highlight-primary text-bg-primary px-[3vw] flex items-center justify-center md:justify-normal font-light">
         <p>© 2020, SJB Safety Services ltd</p>
     </footer>
