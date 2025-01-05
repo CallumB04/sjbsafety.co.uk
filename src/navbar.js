@@ -55,8 +55,8 @@ const phoneDropdownBtn = document.getElementById("phone-dropdown-btn");
 const phoneDropdown = document.getElementById("phone-dropdown");
 const phoneDropdownContent = document.getElementById("phone-dropdown-content");
 phoneDropdownBtn.addEventListener("click", () => {
-  phoneDropdown.classList.toggle("w-9/12");
-  phoneDropdown.classList.toggle("w-0");
-  phoneDropdownContent.classList.toggle("opacity-0");
-  phoneDropdownContent.classList.toggle("opacity-100");
+    phoneDropdown.classList.toggle("w-9/12");
+    phoneDropdown.classList.toggle("w-0");
+    phoneDropdownContent.classList.toggle("opacity-0");
+    phoneDropdownContent.classList.toggle("opacity-100");
 });
