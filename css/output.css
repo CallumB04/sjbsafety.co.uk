@@ -678,6 +678,18 @@ video {
   height: 650px;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-\[450px\] {
+  height: 450px;
+}
+
 .max-h-\[650px\] {
   max-height: 650px;
 }
@@ -723,6 +735,10 @@ video {
   width: 100vw;
 }
 
+.w-10\/12 {
+  width: 83.333333%;
+}
+
 .max-w-60 {
   max-width: 15rem;
 }
@@ -741,6 +757,10 @@ video {
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .flex-col {
@@ -979,6 +999,11 @@ video {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pb-2 {
@@ -1235,6 +1260,10 @@ main {
     height: calc(55vh - 10rem);
   }
 
+  .md\:h-\[650px\] {
+    height: 650px;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1285,6 +1314,16 @@ main {
     padding-bottom: 1rem;
   }
 
+  .md\:px-52 {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
   .md\:pl-10 {
     padding-left: 2.5rem;
   }
@@ -1320,5 +1359,22 @@ main {
 
   .xl\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .xl\:px-52 {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+
+  .xl\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:px-52 {
+    padding-left: 13rem;
+    padding-right: 13rem;
   }
 }
