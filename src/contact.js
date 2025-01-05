@@ -48,7 +48,7 @@ function handleSubmit(event) {
     // Create email with given subject and body, and open in a new tab
     // Use regex to prevent: more than one space at a time; and space at start of strings
     window.open(
-        `mailto:sjb.safetyservices@yahoo.com?subject=${emailSubject
+        `mailto:info@sjbsafety.co.uk?subject=${emailSubject
             .replace(/\s+/g, " ")
             .replace(/^\s/, "")}&body=${emailBody
             .replace(/\s{2,}/g, "")

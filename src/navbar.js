@@ -7,8 +7,8 @@ document.getElementById("navbar").innerHTML = `
             </span>
             <span class="flex gap-x-3 items-center">
                 <i class="fas fa-envelope text-xl"></i>
-                <a href="mailto:sjb.safetyservices@yahoo.com" 
-                   class="text-lg font-semibold">sjb.safetyservices@yahoo.com</a>
+                <a href="mailto:info@sjbsafety.co.uk" 
+                   class="text-lg font-semibold">info@sjbsafety.co.uk</a>
             </span>
         </div>
 
@@ -42,7 +42,7 @@ document.getElementById("navbar").innerHTML = `
                                                 hover:bg-highlight-secondary hover:text-highlight-primary transition-colors duration-200">Contact</a>
                     <div class="h-16 flex justify-center gap-x-9 text-[26px] w-full items-center">
                         <a href="https://www.facebook.com/SJBSafetyservices/" target="_blank" class="fab fa-facebook hover:text-highlight-secondary transition-colors duration-200"></a>
-                        <a href="mailto:sjb.safetyservices@yahoo.com" class="fas fa-envelope hover:text-highlight-secondary transition-colors duration-200"></a>
+                        <a href="mailto:info@sjbsafety.co.uk" class="fas fa-envelope hover:text-highlight-secondary transition-colors duration-200"></a>
                         <a href="tel:+44 7902 011622" class="fas fa-phone hover:text-highlight-secondary transition-colors duration-200 text-[23px]"></a>
                     </div>
                 </div>
