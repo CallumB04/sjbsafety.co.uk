@@ -48,6 +48,117 @@
                     </div>
                 </div>
             </section>
+            <section class="w-screen px-6 py-20 md:px-12 xl:px-24">
+                <form
+                    class="mx-auto flex w-full max-w-2xl flex-wrap gap-4 rounded-lg bg-white p-6"
+                    onsubmit="handleSubmit(event)"
+                >
+                    <!-- First Name -->
+                    <div class="min-w-[45%] flex-1">
+                        <label
+                            for="first-name"
+                            class="block text-sm font-medium text-text-secondary"
+                            >First Name</label
+                        >
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first-name"
+                            required
+                            class="focus:ring-highborder-highlight-primary mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-highlight-primary focus:outline-none"
+                        />
+                    </div>
+
+                    <!-- Last Name -->
+                    <div class="min-w-[45%] flex-1">
+                        <label
+                            for="last-name"
+                            class="block text-sm font-medium text-text-secondary"
+                            >Last Name</label
+                        >
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last-name"
+                            required
+                            class="focus:ring-highborder-highlight-primary mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-highlight-primary focus:outline-none"
+                        />
+                    </div>
+
+                    <!-- Phone Number (Optional) -->
+                    <div class="w-full">
+                        <label
+                            for="phone"
+                            class="block text-sm font-medium text-text-secondary"
+                            >Phone Number (Optional)</label
+                        >
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            class="focus:ring-highborder-highlight-primary mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-highlight-primary focus:outline-none"
+                        />
+                    </div>
+
+                    <!-- Reason for Contact -->
+                    <div class="w-full">
+                        <label
+                            for="reason"
+                            class="block text-sm font-medium text-text-secondary"
+                            >Reason for Contact</label
+                        >
+                        <select
+                            id="reason"
+                            name="reason"
+                            required
+                            class="focus:ring-highborder-highlight-primary mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-highlight-primary focus:outline-none"
+                        >
+                            <option value="" disabled selected>
+                                Select a reason
+                            </option>
+                            <option value="general inquiry">
+                                General Inquiry
+                            </option>
+                            <option value="service request">
+                                Service Request
+                            </option>
+                            <option value="quotation request">
+                                Quotation Request
+                            </option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">
+                                Other (please specify in email)
+                            </option>
+                        </select>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="w-full">
+                        <label
+                            for="message"
+                            class="block text-sm font-medium text-text-secondary"
+                            >Your Message</label
+                        >
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            required
+                            class="focus:ring-highborder-highlight-primary mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 shadow-sm focus:border-highlight-primary focus:outline-none"
+                        ></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="mt-4 flex w-full justify-center">
+                        <button
+                            type="submit"
+                            class="rounded-md bg-highlight-primary px-6 py-2 font-medium text-bg-primary shadow-sm transition-colors duration-200 hover:bg-highlight-secondary hover:text-highlight-primary"
+                        >
+                            Send
+                        </button>
+                    </div>
+                </form>
+            </section>
         </main>
 
         <div id="accreditations"></div>
@@ -55,5 +166,6 @@
 
         <script src="./src/navbar.js"></script>
         <script src="./src/footers.js"></script>
+        <script src="./src/contact.js"></script>
     </body>
 </html>
